@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/test")
 public class testController {
-
+//Trigger actions
     @GetMapping
     public ResponseEntity<String> test() {
         return ResponseEntity.ok("Teste");
